@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | EverestClasses</title>
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/contact/contact.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head-container">
+            <header>
+                <nav>
+                    <ul>
+                        <li class="home"><a href="/index.html"> Home</a></li>
+                        <li class="about"><a href="/htmlfles/about.html"> About</a></li>
+                        <li class="courses"><a href="/htmlfles/course.html"> Courses</a></li>
+                        <li class="contactus"><a href="/htmlfles/contact.html"> Contact Us</a></li>
+                        <!-- <li class='btnli'><button class="btn login-btn">Log in</button></li>
+                        <li class='btnli'><button class="btn singup-btn">Sign up</button></li> -->
+                        <li class='btnli'><a href="/htmlfles/login.html"><button class="btn login-btn">Log
+                                    in</button></a></li>
+                        <li class='btnli'><a href="/htmlfles/signup.html"><button class="btn singup-btn">Sign
+                                    up</button></a></li>
+                        <li style="float: right;">
+                            <span class="nav-logo">EverestClasses</span>
+                        </li>
+
+                    </ul>
+
+
+                </nav>
+
+            </header>
+        </div>
+
+        <!-- Attaching the main content for the main page -->
+
+        <div class="main-content">
+            <div class="left">
+                <form class="login-form" action="noaction.php" method="post">
+                    <div class="greet">
+                        <img class = "company-logo" src="/images/ev1.png" alt="companylogo">
+                    </div>
+                    <div class="candidate-name">
+                        <div>
+                            <label for="name">Your Good Name</label>
+                        </div>
+                        <input class="input" type="text" name='name' id="name" placeholder="Your Full Name" required>
+
+                    </div>
+                    <div class="email-id">
+                        <div>
+                            <label for="emailid">Your Mail Address</label>
+                        </div>
+                        <input class="input" type="email" name='email' id="emailid" placeholder="Your Email Address" >
+
+                    </div>
+
+                    <div class="contact-number">
+                        <div>
+                            <label for="number">Your Contact Number</label>
+                        </div>
+                        <input class="input" type="tel" name='number' id="number"
+                            placeholder="Enter Phone Number" required>
+                    </div>
+                    <div class="candidate-message">
+                        <div>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your message to us"></textarea>
+                    </div>
+                    <button class="submitbtn" type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="right">
+                <div class="letstalk">
+                    Let's Contact about any regards
+                </div>
+                <div class="askmeanything">
+                    Feel free to ask us Anything!
+                </div>
+                <div class="mess">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nam vero autem expedita reiciendis, eligendi itaque repudiandae facilis nobis laudantium saepe quasi tempore at hic. Harum ea aut explicabo vero similique excepturi in consequuntur.
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Attaching the footer -->
+        <div class="footer-container">
+            <footer>
+                <img src="/images/ev1.png" alt="" class="logo footer-logo">
+                <span class="company-name">EverestClasses </span>
+                <span class='cprt' style="flex-grow: 1;"> Copyright &copy; 2022 EverestClasses.com
+                </span>
+                <span></span>
+                <img src="/images/fblogo.png" alt="" class="logo facebook-logo">
+                <img src="/images/instalogo.jpg" alt="" class="logo instagram-logo">
+            </footer>
+
+        </div>
+
+
+    </div>
+</body>
+</html>

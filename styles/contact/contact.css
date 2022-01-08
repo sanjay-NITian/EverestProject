@@ -1,0 +1,123 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+.main-content{
+  width: 90vw;
+  height: 90vh;
+  background-color: rgb(186, 141, 187, 0.11);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+
+.left{
+  width: 60%;
+  height: 85vh;
+  /* background-color: cyan; */
+}
+
+.right{
+  width: 47%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 4vw;
+  justify-content: center;
+
+  /* background-color: rgb(157, 206, 23); */
+}
+
+.letstalk{
+    font-size: 2.4vw;
+    margin-top: 2vw;
+}
+
+.askmeanything{
+    font-size: 2vw;
+    margin: 1vw;
+    
+}
+
+.mess{
+    font-size: 1.1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 2vw;
+
+}
+
+.main-left-img{
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0px 0px,90% 0px,100% 100%,0px 100%);
+  /* border-top-left-radius: 4vh;
+  border-bottom-left-radius: 4vh; */
+  z-index: -1;
+}
+
+/* Designing the right half of the main content */
+.login-form{
+  width: 70%;
+  height: 95%;
+  background-color: rgba(220, 209, 248, 0.452);
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 2vw 2vw 2vw rgb(235, 233, 233);
+}
+
+.company-logo{
+    width: 6vw;
+    height: 6vw;
+}
+
+.input{
+  width: 30vw;
+  text-align: left;
+  font-size: 1.3vw;
+  font-family: cursive;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+
+}
+
+textarea{
+    width: 30vw;
+}
+
+.message{
+    width: 30vw;
+}
+
+.submitbtn{
+  width: 30vw;
+  text-align: center;
+  font-size: 1.3vw;
+  font-family: cursive;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.submitbtn:hover{
+    background-color: black;
+    color: white;
+}

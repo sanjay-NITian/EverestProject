@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
+    <title>SignUp | EverestClasses</title>
 
     <link rel="stylesheet" href="/styles/navbar.css">
     <link rel="stylesheet" href="/styles/footer.css">
@@ -23,9 +23,9 @@
                 <nav>
                     <ul>
                         <li class="home"><a href="/index.html"> Home</a></li>
-                        <li class="about"><a href="#"> About</a></li>
-                        <li class="courses"><a href="#"> Courses</a></li>
-                        <li class="contactus"><a href="#"> Contact Us</a></li>
+                        <li class="about"><a href="/htmlfles/about.html"> About</a></li>
+                        <li class="courses"><a href="/htmlfles/course.html"> Courses</a></li>
+                        <li class="contactus"><a href="/htmlfles/contact.html"> Contact Us</a></li>
                         <!-- <li class='btnli'><button class="btn login-btn">Log in</button></li>
                         <li class='btnli'><button class="btn singup-btn">Sign up</button></li> -->
                         <li class='btnli'><a href="/htmlfles/login.html"><button class="btn login-btn">Log
@@ -61,22 +61,29 @@
 
                     <div class="login-via-google">
                         <div><img class="google-logo" src="/images/googlelogo.jpg" alt="googlelogo"></div>
-                        <div class="login-by-google">Login by Google </div>
+                        <div class="login-by-google">SignUp by Google </div>
                     </div>
                     <div class='seperator-or-div'>
                         <div class='sep'>
                             <hr>
                         </div>
-                        <div class='or'>or</div>
+                        <div class='or'>or </div>
                         <div class='sep'>
                             <hr>
                         </div>
+                    </div>
+                    <div class="user-name">
+                        <div>
+                            <label for="username">Enter Username</label>
+                        </div>
+                        <input class="input" type="text" name='username' id="username" placeholder="Enter your username here" required>
+
                     </div>
                     <div class="email-id">
                         <div>
                             <label for="emailid">Enter Mail</label>
                         </div>
-                        <input class="input" type="email" name='email' id="emailid" placeholder="Enter your mail here">
+                        <input class="input" type="email" name='email' id="emailid" placeholder="Enter your mail here" required>
 
                     </div>
 
@@ -85,13 +92,13 @@
                             <label for="passwd">Enter Password</label>
                         </div>
                         <input class="input" type="password" name='passwd' id="passwd"
-                            placeholder="Enter your password here">
+                            placeholder="Enter your password here" required>
                     </div>
-                    <div class="forgot">
+                    <!-- <div class="forgot">
                         forgot password
-                    </div>
+                    </div> -->
 
-                    <button class="submitbtn" type="submit">Click here to Login</button>
+                    <button class="submitbtn" type="submit">Create Account</button>
 
                     <div class='seperator-or-div'>
                         <div class='sep'>
@@ -104,7 +111,7 @@
                     </div>
 
                     <div>
-                        <a class='create-acc' href="#">Create Account</a>
+                        <a class='create-acc' href="/htmlfles/login.html">Log in</a>
                     </div>
 
                 </form>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
+    <title>Login | EverestClasses</title>
 
     <link rel="stylesheet" href="/styles/navbar.css">
     <link rel="stylesheet" href="/styles/footer.css">
@@ -23,9 +23,9 @@
                 <nav>
                     <ul>
                         <li class="home"><a href="/index.html"> Home</a></li>
-                        <li class="about"><a href="#"> About</a></li>
-                        <li class="courses"><a href="#"> Courses</a></li>
-                        <li class="contactus"><a href="#"> Contact Us</a></li>
+                        <li class="about"><a href="/htmlfles/about.html"> About</a></li>
+                        <li class="courses"><a href="/htmlfles/course.html"> Courses</a></li>
+                        <li class="contactus"><a href="/htmlfles/contact.html"> Contact Us</a></li>
                         <!-- <li class='btnli'><button class="btn login-btn">Log in</button></li>
                         <li class='btnli'><button class="btn singup-btn">Sign up</button></li> -->
                         <li class='btnli'><a href="/htmlfles/login.html"><button class="btn login-btn">Log
@@ -76,7 +76,7 @@
                         <div>
                             <label for="emailid">Enter Mail</label>
                         </div>
-                        <input class="input" type="email" name='email' id="emailid" placeholder="Enter your mail here">
+                        <input class="input" type="email" name='email' id="emailid" placeholder="Enter your mail here" required>
 
                     </div>
 
@@ -85,10 +85,10 @@
                             <label for="passwd">Enter Password</label>
                         </div>
                         <input class="input" type="password" name='passwd' id="passwd"
-                            placeholder="Enter your password here">
+                            placeholder="Enter your password here" required>
                     </div>
                     <div class="forgot">
-                        forgot password
+                        <a class = "forgotlink" href="#">Forgot Password?</a>
                     </div>
 
                     <button class="submitbtn" type="submit">Click here to Login</button>
@@ -104,7 +104,7 @@
                     </div>
 
                     <div>
-                        <a class='create-acc' href="#">Create Account</a>
+                        <a class='create-acc' href="/htmlfles/signup.html">Create Account</a>
                     </div>
 
                 </form>
