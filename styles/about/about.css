@@ -1,0 +1,10 @@
+/* injecting the code for the predefined css written in js */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    margin: auto;
+  }

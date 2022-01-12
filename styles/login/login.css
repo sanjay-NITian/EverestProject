@@ -23,6 +23,9 @@
 .left{
   width: 60%;
   height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* background-color: cyan; */
 }
 
@@ -33,8 +36,8 @@
 }
 
 .main-left-img{
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   clip-path: polygon(0px 0px,90% 0px,100% 100%,0px 100%);
   /* border-top-left-radius: 4vh;
   border-bottom-left-radius: 4vh; */
